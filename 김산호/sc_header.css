@@ -1,0 +1,140 @@
+*{margin: 0px auto;}
+
+a{text-decoration: none;}
+
+li{list-style-type: none;}
+
+body{
+    background-color: #f2f2f2;
+}
+
+#content{
+    width: 1250px;
+    border: 0px solid green;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    background-color: #ffffff
+}
+
+header{
+    width: 100%;
+    height: 460px;
+    margin: 0px auto;
+    border: 0px solid red;
+    border-top: 5px solid #ff5500;
+    box-shadow: 1px 30px 90px rgb(18, 18, 18) inset;
+    background: linear-gradient( to top, rgba(black, 1) 20%);
+    background-image: url("https://a-v2.sndcdn.com/assets/images/sc_landing_header_web_featured_artists@2x-00444712.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+}
+
+header > #logo{
+    border: 0px solid white;
+    width: 98%;
+    height: 80px;
+    line-height: 70px;
+    margin-left: 23px;
+}
+
+header .img{
+    width: 48px;
+    height: 25px;
+    margin-top: 5px;
+    color: white;
+    float: left;
+}
+
+header .logotext{
+    width: 100px;
+    height: 50px;
+    color: white;
+    margin-top: 2px;
+    margin-left: 5px;
+    float: left;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+header > #logo > #button{
+    width: 500px;
+    height: 30px;
+    border: 0px solid blue;
+    float: right;
+    margin: 25px auto;
+}
+
+header > #logo > #button a{
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header > #logo > #button li{
+    height: 27px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 27px;
+    float: right;
+    border-radius: 3px 3px 3px 3px;
+}
+
+header #button li:nth-child(1){
+    border: none;
+    width: 123px;
+}
+
+
+header #button li:nth-child(2){
+    background-color: #ff5500;
+    border: 1px solid #ff5500;
+    margin-top: 1px;
+    margin-right: -15px;
+    width: 123px;
+    height: 30px;
+}
+
+header #button li:nth-child(3){
+    background-color: none;
+    border: 1px solid rgb(213, 208, 208);
+    width: 74px;
+    margin-right: 5px;
+}
+
+header #intro-text{
+    border: 0px solid yellow;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin: 72px auto;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header > #intro-text > .text1{
+    font-size: 2.2em;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+header > #intro-text > .text2{
+    font-size: 17px
+}
+
+header #signupid{
+    width: 205px;
+    height: 46px;
+    background-color: #ff5500;
+    margin: 28px auto;
+    border-radius: 3px 3px 3px 3px;
+}
+
+header #signupid a{
+    color: white;
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    line-height: 46px;
+}

@@ -1,0 +1,239 @@
+#content{
+    margin: 0px auto;
+}
+
+#tolookingfor{
+    border: 0px solid red;
+    height: 820px;
+    background-color: white;
+}
+
+#tolookingfor > #searchtab{
+    border: 0px solid yellow;
+    width: 900px;
+    height: 115px;
+    margin : auto;
+}
+
+#searchtab > div{
+    float: left;
+    line-height: 140px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+#searchtab > div >input{
+    width: 600px;
+    height: 47px;
+    border-radius: 3px 3px 3px 3px;
+    background-color: #f2f2f2;
+    border: none;
+    margin-left: 40px;
+}
+
+#searchtab > div > input::placeholder{
+    font-size: 17px;
+    color: #adadad;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: lighter;
+}
+
+#searchtab > div:nth-child(2){
+    margin-top: 5px;
+    margin-left: -55px;
+    cursor: pointer;
+}
+
+#searchtab > .uploadlink{
+    width: 170px;
+    height: 47px;
+    line-height: 47px;
+    background-color: #ff5500;
+    margin: 48px auto;
+    border-radius: 3px 3px 3px 3px;
+}
+
+#searchtab > .uploadlink > a{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#tolookingfor > #intro-songlist{
+    border: 0px solid palevioletred;
+    width: 900px;
+    height: 70px;
+    text-align: center;
+    line-height: 5px;
+    font-size: 23px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    color: #393939;
+}
+
+#tolookingfor > #song-section1,
+#tolookingfor > #song-section2{
+    margin: 0px auto;
+    border: 0px solid blue;
+    width: 1250px;
+    height: 250px;
+}
+
+#tolookingfor > #song-section1 li,
+#tolookingfor > #song-section2 li{
+    border: 0px solid orange;
+    margin-left: 0px;
+    width: 200px;
+    float: left;
+}
+
+#tolookingfor > #song-section1 li:nth-child(1),
+#tolookingfor > #song-section2 li:nth-child(1){
+    margin-left: -10px;
+}
+
+#song-section1 div,
+#song-section2 div{
+    font-size: 14px;
+    color: #1d1d1d;
+    text-align: start;
+    float: left;
+    font-family: 'Noto Sans', sans-serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 180px;
+}
+
+#song-section2 div{
+    font-size: 14px;
+    color: #1d1d1d;
+    text-align: start;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#explorelist{
+    border: 0px solid red;
+    width: 250px;
+    height: 45px;
+    background-color: #ff5500;
+    text-align: center;
+    line-height: 45px;
+    margin-top: 10px;
+    border-radius: 3px 3px 3px 3px;
+}
+
+#explorelist > a{
+    color: white;
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#storeconnect {
+    border: 0px solid blue;
+    background-color: #f2f2f2;
+    background-image: url(https://a-v2.sndcdn.com/assets/images/never_stop_listening@1x-9c5264ff.jpg);
+    background-repeat: no-repeat;
+    background-position: 15% 55px;
+    width: 1250px;
+    height: 440px;
+}
+
+#storeconnect > .phoneimg{
+    display: block;
+    margin-top: 50px;
+    margin-left: 80px;
+    position: absolute;
+}
+
+#storeconnect > .storelink{
+    border: 0px solid red;
+    width: 400px;
+    height: 300px;
+    float: right;
+    margin-top: 80px;
+}
+
+#storeconnect > .storelink > .storetext1{
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+#storeconnect > .storelink > .nemo{
+    border: none;
+    margin-top: 20px;
+    float: left;
+    width: 69px;
+    height: 3px;
+    background: linear-gradient( to right, purple, red, rgb(255, 85, 0));
+    border-radius: 1px 1px 1px 1px;
+}
+
+#storeconnect > .storelink > p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+}
+
+#findout{
+    border: 0px solid pink;
+    width: 1250px;
+    height: 350px;
+    background-image: url(https://a-v2.sndcdn.com/assets/images/hp_creator_image_featured_artists-798050ae.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 0px;
+}
+
+.findcon{
+    border: 0px solid yellow;
+    width: 400px;
+    height: 200px;
+    margin: 25px 70px;
+    float: left;
+}
+
+#findout > .findcon > .findintro{
+    border: 0px solid blue;
+    width: 400px;
+    height: 100px;
+    float: left;
+    line-height: 120px;
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+#findout p{
+    border: 0px solid greenyellow;
+    color: white;
+    float: left;
+    width: 520px;
+    height: 100px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 23px;
+}
+
+#findout > .findlink{
+    border: 1px solid white;
+    width: 140px;
+    height: 40px;
+    float: left;
+}
+
+#findout a{
+    border: 1px solid rgb(207, 207, 207);
+    width: 155px;
+    height: 45px;
+    float: left;
+    color: white;
+    font-size: 17px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 3px 3px 3px 3px;
+}
